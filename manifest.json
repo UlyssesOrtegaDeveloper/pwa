@@ -1,6 +1,6 @@
 {
-    "name": "PWA",
-    "short_name": "pwa",
+    "name": "deliveryBETA",
+    "short_name": "delivery",
     "start_url": ".",
     "background_color": "#6dcdb1",
     "theme_color": "#009578",
