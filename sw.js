@@ -2,7 +2,7 @@ self.addEventListener("install", e => {
     console.log("SW Instalado con exito");
     e.waitUntil(
         caches.open("static").then(cache => {
-            return cache.addAll(["./", "./src/master.css", "./assets/img/pwa-icons/logo192.png"]);
+            return cache.addAll(["./", "./assets/css/style.css", "./assets/img/pwa-icons/logo192.png"]);
         })
     )
 });
